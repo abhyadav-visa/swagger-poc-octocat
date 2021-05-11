@@ -1,5 +1,7 @@
 openapi: 3.0.0
-host: sandbox.api.visa.com
+servers:
+  - url: https://sandbox.api.visa.com
+    description: Sandbox server
 info:
   title: Swagger Petstore - OpenAPI 3.0
   description: |-
