@@ -34,7 +34,11 @@ tags:
   - name: user
     description: Access to Petstore orders
     externalDocs:
-      description: Find out more about our store
+      description: <label for="version">Choose a version:</label>
+                <select name="version" id="version">
+                  <option value="v1">V1</option>
+                  <option value="v2">V2</option>
+                </select>
       url: 'http://swagger.io'
 paths:
   /user:
